@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FableBinarySerializationBug.Client", "src\FableBinarySerializationBug.Client\FableBinarySerializationBug.Client.fsproj", "{FC912064-B084-4C24-8492-DB2F63E3322F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FableBinarySerializationBug.Shared", "src\FableBinarySerializationBug.Shared\FableBinarySerializationBug.Shared.fsproj", "{DCBA36F6-D412-4BC6-A228-283D14986056}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FableBinarySerializationBug.Server", "src\FableBinarySerializationBug.Server\FableBinarySerializationBug.Server.fsproj", "{A94AF211-C38E-4114-9FD3-8A0D15B6771E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC912064-B084-4C24-8492-DB2F63E3322F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC912064-B084-4C24-8492-DB2F63E3322F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC912064-B084-4C24-8492-DB2F63E3322F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC912064-B084-4C24-8492-DB2F63E3322F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBA36F6-D412-4BC6-A228-283D14986056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBA36F6-D412-4BC6-A228-283D14986056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBA36F6-D412-4BC6-A228-283D14986056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBA36F6-D412-4BC6-A228-283D14986056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94AF211-C38E-4114-9FD3-8A0D15B6771E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94AF211-C38E-4114-9FD3-8A0D15B6771E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94AF211-C38E-4114-9FD3-8A0D15B6771E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94AF211-C38E-4114-9FD3-8A0D15B6771E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

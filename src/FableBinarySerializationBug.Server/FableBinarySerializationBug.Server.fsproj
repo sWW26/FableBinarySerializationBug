@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Fable.Remoting.Giraffe" Version="5.9.0" />
+        <PackageReference Include="Giraffe" Version="6.0.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\FableBinarySerializationBug.Shared\FableBinarySerializationBug.Shared.fsproj" />
+    </ItemGroup>
+
+</Project>
